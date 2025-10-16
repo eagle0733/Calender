@@ -1,1 +1,9 @@
-{"name":"DragCal","short_name":"DragCal","start_url":"./index.html","display":"standalone","background_color":"#ffffff","theme_color":"#111827"}
+{
+  "name": "簡潔行事曆（日/週/月）",
+  "short_name": "行事曆",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": []
+}
