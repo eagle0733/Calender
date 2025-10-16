@@ -6,7 +6,7 @@ self.addEventListener('fetch', e => {
       cache.match(e.request).then(r => r || fetch(e.request).then(resp => {
         cache.put(e.request, resp.clone());
         return resp;
-      }))
+      })).catch(() => caches.match('index.html'))
     )
   );
 });

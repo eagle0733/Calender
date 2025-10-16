@@ -1,6 +1,6 @@
 {
-  "name": "簡潔行事曆（日/週/月）",
-  "short_name": "行事曆",
+  "name": "行事曆 Pro（日/週/月）",
+  "short_name": "行事曆Pro",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",

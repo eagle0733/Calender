@@ -1,29 +1,22 @@
 
-# 🗓️ 簡潔行事曆（日/週/月）
+# 🗓️ 行事曆 Pro（日/週/月）
 
-這是一個可離線使用、可提醒、支援日/週/月檢視的行事曆網頁。
+精簡、穩定、可離線使用的行事曆。支援：日/週/月、就地編輯、拖曳、禁止重疊、提醒、自動儲存。
 
-## 🚀 快速上線（GitHub Pages）
+## 🚀 GitHub Pages 發佈
+1. 建立（或進入）你的 Repo，例如 `Calender`
+2. 上傳本資料夾的所有檔案到根目錄：`index.html`, `manifest.webmanifest`, `sw.js`, `README.md`
+3. 進入 **Settings → Pages**：
+   - Source：Deploy from a branch
+   - Branch：main
+   - Folder：/(root)
+   - Save
+4. 之後網址會是 `https://<你的帳號>.github.io/Calender`
 
-1. 到 GitHub 建立一個公開 Repository，例如：`Calender`
-2. 上傳以下檔案：
-   - `index.html`
-   - `manifest.webmanifest`
-   - `sw.js`
-   - `README.md`
-3. 上傳後到 **Settings → Pages**
-   - Source：選「Deploy from a branch」
-   - Branch：`main`
-   - Folder：`/(root)`
-   - 然後按 **Save**
-4. 幾分鐘後，你的網站會出現在：  
-   👉 `https://你的帳號.github.io/Calender`
+## 🔔 通知
+- 在 HTTPS（或 localhost）上，使用系統通知
+- 若非 HTTPS，會使用頁面提醒＋音效（無錯誤訊息）
 
-## ✨ 功能
-- 日 / 週 / 月 檢視切換
-- 點擊格子新增行程
-- 拖曳調整 / 禁止重疊
-- 分類顏色自訂
-- 自動儲存（LocalStorage）
-- 提醒功能（HTTPS 網站會顯示系統通知）
-- 支援離線使用（PWA 模式）
+## 💾 資料保存
+- 使用 LocalStorage：`calendar.pro.all.v1`
+- 任一操作（新增/編輯/拖曳/刪除）都會自動保存
